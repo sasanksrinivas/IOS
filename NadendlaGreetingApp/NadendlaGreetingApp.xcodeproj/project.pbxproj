@@ -1,0 +1,601 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 55;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		F9DD179228D111C30004BF07 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = F9DD179128D111C30004BF07 /* AppDelegate.swift */; };
+		F9DD179428D111C30004BF07 /* SceneDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = F9DD179328D111C30004BF07 /* SceneDelegate.swift */; };
+		F9DD179628D111C30004BF07 /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = F9DD179528D111C30004BF07 /* ViewController.swift */; };
+		F9DD179928D111C30004BF07 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = F9DD179728D111C30004BF07 /* Main.storyboard */; };
+		F9DD179B28D111C50004BF07 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = F9DD179A28D111C50004BF07 /* Assets.xcassets */; };
+		F9DD179E28D111C50004BF07 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = F9DD179C28D111C50004BF07 /* LaunchScreen.storyboard */; };
+		F9DD17A928D111C50004BF07 /* NadendlaGreetingAppTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = F9DD17A828D111C50004BF07 /* NadendlaGreetingAppTests.swift */; };
+		F9DD17B328D111C50004BF07 /* NadendlaGreetingAppUITests.swift in Sources */ = {isa = PBXBuildFile; fileRef = F9DD17B228D111C50004BF07 /* NadendlaGreetingAppUITests.swift */; };
+		F9DD17B528D111C50004BF07 /* NadendlaGreetingAppUITestsLaunchTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = F9DD17B428D111C50004BF07 /* NadendlaGreetingAppUITestsLaunchTests.swift */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXContainerItemProxy section */
+		F9DD17A528D111C50004BF07 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = F9DD178628D111C30004BF07 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = F9DD178D28D111C30004BF07;
+			remoteInfo = NadendlaGreetingApp;
+		};
+		F9DD17AF28D111C50004BF07 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = F9DD178628D111C30004BF07 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = F9DD178D28D111C30004BF07;
+			remoteInfo = NadendlaGreetingApp;
+		};
+/* End PBXContainerItemProxy section */
+
+/* Begin PBXFileReference section */
+		F9DD178E28D111C30004BF07 /* NadendlaGreetingApp.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = NadendlaGreetingApp.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		F9DD179128D111C30004BF07 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
+		F9DD179328D111C30004BF07 /* SceneDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SceneDelegate.swift; sourceTree = "<group>"; };
+		F9DD179528D111C30004BF07 /* ViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewController.swift; sourceTree = "<group>"; };
+		F9DD179828D111C30004BF07 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
+		F9DD179A28D111C50004BF07 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
+		F9DD179D28D111C50004BF07 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
+		F9DD179F28D111C50004BF07 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		F9DD17A428D111C50004BF07 /* NadendlaGreetingAppTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = NadendlaGreetingAppTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		F9DD17A828D111C50004BF07 /* NadendlaGreetingAppTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = NadendlaGreetingAppTests.swift; sourceTree = "<group>"; };
+		F9DD17AE28D111C50004BF07 /* NadendlaGreetingAppUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = NadendlaGreetingAppUITests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		F9DD17B228D111C50004BF07 /* NadendlaGreetingAppUITests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = NadendlaGreetingAppUITests.swift; sourceTree = "<group>"; };
+		F9DD17B428D111C50004BF07 /* NadendlaGreetingAppUITestsLaunchTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = NadendlaGreetingAppUITestsLaunchTests.swift; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		F9DD178B28D111C30004BF07 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		F9DD17A128D111C50004BF07 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		F9DD17AB28D111C50004BF07 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		F9DD178528D111C30004BF07 = {
+			isa = PBXGroup;
+			children = (
+				F9DD179028D111C30004BF07 /* NadendlaGreetingApp */,
+				F9DD17A728D111C50004BF07 /* NadendlaGreetingAppTests */,
+				F9DD17B128D111C50004BF07 /* NadendlaGreetingAppUITests */,
+				F9DD178F28D111C30004BF07 /* Products */,
+			);
+			sourceTree = "<group>";
+		};
+		F9DD178F28D111C30004BF07 /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				F9DD178E28D111C30004BF07 /* NadendlaGreetingApp.app */,
+				F9DD17A428D111C50004BF07 /* NadendlaGreetingAppTests.xctest */,
+				F9DD17AE28D111C50004BF07 /* NadendlaGreetingAppUITests.xctest */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		F9DD179028D111C30004BF07 /* NadendlaGreetingApp */ = {
+			isa = PBXGroup;
+			children = (
+				F9DD179128D111C30004BF07 /* AppDelegate.swift */,
+				F9DD179328D111C30004BF07 /* SceneDelegate.swift */,
+				F9DD179528D111C30004BF07 /* ViewController.swift */,
+				F9DD179728D111C30004BF07 /* Main.storyboard */,
+				F9DD179A28D111C50004BF07 /* Assets.xcassets */,
+				F9DD179C28D111C50004BF07 /* LaunchScreen.storyboard */,
+				F9DD179F28D111C50004BF07 /* Info.plist */,
+			);
+			path = NadendlaGreetingApp;
+			sourceTree = "<group>";
+		};
+		F9DD17A728D111C50004BF07 /* NadendlaGreetingAppTests */ = {
+			isa = PBXGroup;
+			children = (
+				F9DD17A828D111C50004BF07 /* NadendlaGreetingAppTests.swift */,
+			);
+			path = NadendlaGreetingAppTests;
+			sourceTree = "<group>";
+		};
+		F9DD17B128D111C50004BF07 /* NadendlaGreetingAppUITests */ = {
+			isa = PBXGroup;
+			children = (
+				F9DD17B228D111C50004BF07 /* NadendlaGreetingAppUITests.swift */,
+				F9DD17B428D111C50004BF07 /* NadendlaGreetingAppUITestsLaunchTests.swift */,
+			);
+			path = NadendlaGreetingAppUITests;
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		F9DD178D28D111C30004BF07 /* NadendlaGreetingApp */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = F9DD17B828D111C50004BF07 /* Build configuration list for PBXNativeTarget "NadendlaGreetingApp" */;
+			buildPhases = (
+				F9DD178A28D111C30004BF07 /* Sources */,
+				F9DD178B28D111C30004BF07 /* Frameworks */,
+				F9DD178C28D111C30004BF07 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = NadendlaGreetingApp;
+			productName = NadendlaGreetingApp;
+			productReference = F9DD178E28D111C30004BF07 /* NadendlaGreetingApp.app */;
+			productType = "com.apple.product-type.application";
+		};
+		F9DD17A328D111C50004BF07 /* NadendlaGreetingAppTests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = F9DD17BB28D111C50004BF07 /* Build configuration list for PBXNativeTarget "NadendlaGreetingAppTests" */;
+			buildPhases = (
+				F9DD17A028D111C50004BF07 /* Sources */,
+				F9DD17A128D111C50004BF07 /* Frameworks */,
+				F9DD17A228D111C50004BF07 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				F9DD17A628D111C50004BF07 /* PBXTargetDependency */,
+			);
+			name = NadendlaGreetingAppTests;
+			productName = NadendlaGreetingAppTests;
+			productReference = F9DD17A428D111C50004BF07 /* NadendlaGreetingAppTests.xctest */;
+			productType = "com.apple.product-type.bundle.unit-test";
+		};
+		F9DD17AD28D111C50004BF07 /* NadendlaGreetingAppUITests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = F9DD17BE28D111C50004BF07 /* Build configuration list for PBXNativeTarget "NadendlaGreetingAppUITests" */;
+			buildPhases = (
+				F9DD17AA28D111C50004BF07 /* Sources */,
+				F9DD17AB28D111C50004BF07 /* Frameworks */,
+				F9DD17AC28D111C50004BF07 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				F9DD17B028D111C50004BF07 /* PBXTargetDependency */,
+			);
+			name = NadendlaGreetingAppUITests;
+			productName = NadendlaGreetingAppUITests;
+			productReference = F9DD17AE28D111C50004BF07 /* NadendlaGreetingAppUITests.xctest */;
+			productType = "com.apple.product-type.bundle.ui-testing";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		F9DD178628D111C30004BF07 /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				BuildIndependentTargetsInParallel = 1;
+				LastSwiftUpdateCheck = 1340;
+				LastUpgradeCheck = 1340;
+				TargetAttributes = {
+					F9DD178D28D111C30004BF07 = {
+						CreatedOnToolsVersion = 13.4.1;
+					};
+					F9DD17A328D111C50004BF07 = {
+						CreatedOnToolsVersion = 13.4.1;
+						TestTargetID = F9DD178D28D111C30004BF07;
+					};
+					F9DD17AD28D111C50004BF07 = {
+						CreatedOnToolsVersion = 13.4.1;
+						TestTargetID = F9DD178D28D111C30004BF07;
+					};
+				};
+			};
+			buildConfigurationList = F9DD178928D111C30004BF07 /* Build configuration list for PBXProject "NadendlaGreetingApp" */;
+			compatibilityVersion = "Xcode 13.0";
+			developmentRegion = en;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = F9DD178528D111C30004BF07;
+			productRefGroup = F9DD178F28D111C30004BF07 /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				F9DD178D28D111C30004BF07 /* NadendlaGreetingApp */,
+				F9DD17A328D111C50004BF07 /* NadendlaGreetingAppTests */,
+				F9DD17AD28D111C50004BF07 /* NadendlaGreetingAppUITests */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		F9DD178C28D111C30004BF07 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				F9DD179E28D111C50004BF07 /* LaunchScreen.storyboard in Resources */,
+				F9DD179B28D111C50004BF07 /* Assets.xcassets in Resources */,
+				F9DD179928D111C30004BF07 /* Main.storyboard in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		F9DD17A228D111C50004BF07 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		F9DD17AC28D111C50004BF07 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		F9DD178A28D111C30004BF07 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				F9DD179628D111C30004BF07 /* ViewController.swift in Sources */,
+				F9DD179228D111C30004BF07 /* AppDelegate.swift in Sources */,
+				F9DD179428D111C30004BF07 /* SceneDelegate.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		F9DD17A028D111C50004BF07 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				F9DD17A928D111C50004BF07 /* NadendlaGreetingAppTests.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		F9DD17AA28D111C50004BF07 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				F9DD17B528D111C50004BF07 /* NadendlaGreetingAppUITestsLaunchTests.swift in Sources */,
+				F9DD17B328D111C50004BF07 /* NadendlaGreetingAppUITests.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXTargetDependency section */
+		F9DD17A628D111C50004BF07 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = F9DD178D28D111C30004BF07 /* NadendlaGreetingApp */;
+			targetProxy = F9DD17A528D111C50004BF07 /* PBXContainerItemProxy */;
+		};
+		F9DD17B028D111C50004BF07 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = F9DD178D28D111C30004BF07 /* NadendlaGreetingApp */;
+			targetProxy = F9DD17AF28D111C50004BF07 /* PBXContainerItemProxy */;
+		};
+/* End PBXTargetDependency section */
+
+/* Begin PBXVariantGroup section */
+		F9DD179728D111C30004BF07 /* Main.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				F9DD179828D111C30004BF07 /* Base */,
+			);
+			name = Main.storyboard;
+			sourceTree = "<group>";
+		};
+		F9DD179C28D111C50004BF07 /* LaunchScreen.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				F9DD179D28D111C50004BF07 /* Base */,
+			);
+			name = LaunchScreen.storyboard;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
+
+/* Begin XCBuildConfiguration section */
+		F9DD17B628D111C50004BF07 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++17";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_QUOTED_INCLUDE_IN_FRAMEWORK_HEADER = YES;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 15.5;
+				MTL_ENABLE_DEBUG_INFO = INCLUDE_SOURCE;
+				MTL_FAST_MATH = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = iphoneos;
+				SWIFT_ACTIVE_COMPILATION_CONDITIONS = DEBUG;
+				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
+			};
+			name = Debug;
+		};
+		F9DD17B728D111C50004BF07 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++17";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_QUOTED_INCLUDE_IN_FRAMEWORK_HEADER = YES;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 15.5;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				MTL_FAST_MATH = YES;
+				SDKROOT = iphoneos;
+				SWIFT_COMPILATION_MODE = wholemodule;
+				SWIFT_OPTIMIZATION_LEVEL = "-O";
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		F9DD17B928D111C50004BF07 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				GENERATE_INFOPLIST_FILE = YES;
+				INFOPLIST_FILE = NadendlaGreetingApp/Info.plist;
+				INFOPLIST_KEY_UIApplicationSupportsIndirectInputEvents = YES;
+				INFOPLIST_KEY_UILaunchStoryboardName = LaunchScreen;
+				INFOPLIST_KEY_UIMainStoryboardFile = Main;
+				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPad = "UIInterfaceOrientationPortrait UIInterfaceOrientationPortraitUpsideDown UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
+				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPhone = "UIInterfaceOrientationPortrait UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+				);
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = edu.northwest.NadendlaGreetingApp;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_EMIT_LOC_STRINGS = YES;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Debug;
+		};
+		F9DD17BA28D111C50004BF07 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				GENERATE_INFOPLIST_FILE = YES;
+				INFOPLIST_FILE = NadendlaGreetingApp/Info.plist;
+				INFOPLIST_KEY_UIApplicationSupportsIndirectInputEvents = YES;
+				INFOPLIST_KEY_UILaunchStoryboardName = LaunchScreen;
+				INFOPLIST_KEY_UIMainStoryboardFile = Main;
+				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPad = "UIInterfaceOrientationPortrait UIInterfaceOrientationPortraitUpsideDown UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
+				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPhone = "UIInterfaceOrientationPortrait UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+				);
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = edu.northwest.NadendlaGreetingApp;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_EMIT_LOC_STRINGS = YES;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Release;
+		};
+		F9DD17BC28D111C50004BF07 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				GENERATE_INFOPLIST_FILE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 15.5;
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = edu.northwest.NadendlaGreetingAppTests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_EMIT_LOC_STRINGS = NO;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/NadendlaGreetingApp.app/NadendlaGreetingApp";
+			};
+			name = Debug;
+		};
+		F9DD17BD28D111C50004BF07 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				GENERATE_INFOPLIST_FILE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 15.5;
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = edu.northwest.NadendlaGreetingAppTests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_EMIT_LOC_STRINGS = NO;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/NadendlaGreetingApp.app/NadendlaGreetingApp";
+			};
+			name = Release;
+		};
+		F9DD17BF28D111C50004BF07 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				GENERATE_INFOPLIST_FILE = YES;
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = edu.northwest.NadendlaGreetingAppUITests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_EMIT_LOC_STRINGS = NO;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_TARGET_NAME = NadendlaGreetingApp;
+			};
+			name = Debug;
+		};
+		F9DD17C028D111C50004BF07 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				GENERATE_INFOPLIST_FILE = YES;
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = edu.northwest.NadendlaGreetingAppUITests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_EMIT_LOC_STRINGS = NO;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_TARGET_NAME = NadendlaGreetingApp;
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		F9DD178928D111C30004BF07 /* Build configuration list for PBXProject "NadendlaGreetingApp" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				F9DD17B628D111C50004BF07 /* Debug */,
+				F9DD17B728D111C50004BF07 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		F9DD17B828D111C50004BF07 /* Build configuration list for PBXNativeTarget "NadendlaGreetingApp" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				F9DD17B928D111C50004BF07 /* Debug */,
+				F9DD17BA28D111C50004BF07 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		F9DD17BB28D111C50004BF07 /* Build configuration list for PBXNativeTarget "NadendlaGreetingAppTests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				F9DD17BC28D111C50004BF07 /* Debug */,
+				F9DD17BD28D111C50004BF07 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		F9DD17BE28D111C50004BF07 /* Build configuration list for PBXNativeTarget "NadendlaGreetingAppUITests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				F9DD17BF28D111C50004BF07 /* Debug */,
+				F9DD17C028D111C50004BF07 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = F9DD178628D111C30004BF07 /* Project object */;
+}
